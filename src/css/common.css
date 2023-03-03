@@ -16,3 +16,48 @@ img {
   display: block;
   max-width: 100%;
 }
+
+#datetime-picker,
+input[type='number'] {
+  padding: 10px;
+  border: #21212186 2px solid;
+  border-radius: 5px;
+  font-size: 18px;
+}
+button[data-start],
+button[data-stop] {
+  padding: 10px;
+  border: #2121211a 2px solid;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.field {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+.timer {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  border: #2121213f 3px solid;
+  border-radius: 7px;
+}
+.value {
+  text-align: center;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+button[type='submit'] {
+  padding: 5px;
+  border: #2121211a 2px solid;
+  border-radius: 5px;
+  font-size: 17px;
+}
